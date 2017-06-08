@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context crossContext = "true">
+
+<Resource name = "jdbc/retail"
+		  auth = "Container"
+		  type = "javax.sql.DataSource"
+		  username = "root"
+		  password = "root"
+		  driverClassName = "com.mysql.jdbc.Driver"
+		  url = "jdbc:mysql://localhost:3306/retail?useSSL=false">
+</Resource>
+<Resource name ="jms/ConnectionFactory"
+			auth = "Container"
+			type = "org.apache.activemq.ActiveMQConnectionFactory"
+			description = "JMS Connection Factory"
+			factory = "org.apache.activemq.jndi.JNDIReferenceFactory"
+			brokerURL = "vm://localhost:61616"
+			brokerName = "LocalctiveMQBroker">
+
+</Resource>
+</Context>

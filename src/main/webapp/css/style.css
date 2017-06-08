@@ -1,0 +1,62 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-color: #D7F3FF;
+	font-family: Arial;
+	font-size: 18px;
+	
+}
+
+.focus {
+  background-color: #ff00ff;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.pageNumber {
+  padding: 2px;
+}
+	.paginate a{
+		color: black;
+    	padding: 8px 16px;
+    	 text-decoration:none;
+		 display:inline-block;
+		 
+		  border: 1px solid #ddd;
+		  background-color:#dbc069;
+		  border-radius: 2px;
+ 	
+	}
+	
+	 #left{
+		float:left;
+		margin-left:20%;
+		border-radius:10px;
+	}
+	 #right{
+		float:right;
+		margin-right:20%;
+		border-radius:10px;
+	}
+	.paginate a:hover:not(.active) {
+	background-color: #FF8000;
+	}
+	
+	#submit{
+		background-color: #dbc069;
+		padding: 8px 16px;
+		border-radius:2px;
+		font-weight:bold;
+		font-size :15px;
+		border-radius:10px;
+	}
+	.btn{
+		background-color: #dbc069;
+		padding: 10px 20px;
+		text-align: center;
+		font-weight:bold;
+		font-size :15px;
+		border-radius:10px;
+		
+	}
+	

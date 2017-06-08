@@ -1,0 +1,13 @@
+@CHARSET "ISO-8859-1";
+
+.header{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.header-left{
+		float: left;
+	}
+.header-right{
+		float:right;
+	}
+

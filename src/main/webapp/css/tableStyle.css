@@ -1,0 +1,43 @@
+@CHARSET "ISO-8859-1";
+table.tableHead{
+	border-collapse: collapse;
+	border :2px solid black; 
+    width: 60%;
+	
+}
+
+ .thead tr td{
+	text-align: center;
+	color:white;
+	border: 2px solid white;
+	
+}
+table.tableHead .thead tr td{
+	background-color:#2EFEC8;
+}
+ td {
+	padding:10px;
+	border: 2px solid white;
+	
+}
+
+ table.tableHead .tbody tr:nth-child(odd){
+		background: #c6ecd9;
+		text-align:center;
+	}
+ table.tableHead .tbody tr:nth-child(even){
+		background: #d9f2e6;
+		text-align:center;
+ }
+ table.tableHead tr:HOVER {
+	background-color: #e0dd9b;
+}
+	.tableHead .cellEditing input[type=text]{ 
+		width:50%;
+		padding:8px;
+		text-align:center;
+		border:0; 
+		background-color:rgb(255,253,210);
+		}
+
+

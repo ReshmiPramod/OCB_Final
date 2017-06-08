@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>SmartBuy Inc.</title>
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/headerStyle.css" />
+<link rel="stylesheet" href="css/tableStyle.css" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+
+</head>
+<body>
+<script type="text/javascript" src="js/scriptFile.js"></script>
+	<div class="header">
+		<p class="header-left">Smart Buy Inc.<br><br>
+		 Copyright @ 2017</p>
+		<p class="header-right">SAR Online<br><br>
+		  Version 1.0.0</p>
+		  <div style="clear: both;"></div>
+	 </div>
+	<hr>
+	
+	<div align="center">
+	<h2>SAR Purchase Orders</h2>
+	<p id="first">All POs are calculated with Last Business Day Sales</p>
+	</div>
+	
+	<p align ="center" id="second">Following SKUs will be submitted for Admin Approval</p>
+	
+	<div align ="center" id="third">
+	<div id="res" style="color: #80002a; font-weight: bold; font-size: 22px"></div>
+		&nbsp;&nbsp;&nbsp;
+		<p>*SKUs Submitted for Admin Approval are not included in this PO</p>
+	</div>
+	<div align="center">
+ 		<table class="tableHead" id="skulist">
+ 		<thead class="thead">
+			<tr>
+				<td><b>SKU Number</b></td>
+				<td><b>SKU Description</b></td>
+				<td><b>Order Quantity</b></td>
+			</tr>
+		</thead>
+		<tbody class="tbody">
+		</tbody>
+			</table>
+			
+			<br><br>
+			<div id="btns" align="center">
+ 			<button type="submit" id="submit">Submit</button>&nbsp;&nbsp;&nbsp;
+			<button type="button" id="editbtn"class="btn">Keep Original Quantities</button>&nbsp;&nbsp;&nbsp; 
+			<button type="button" id ="bak" class="btn">Back</button>&nbsp;&nbsp;&nbsp;
+			<button type="button" id ="confirm" class="btn">Confirm</button>&nbsp;&nbsp;&nbsp;
+			</div>
+	</div>
+	<div id="result">
+	</div>
+</body>
+</html>
